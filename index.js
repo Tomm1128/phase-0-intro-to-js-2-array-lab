@@ -31,3 +31,8 @@ function prependCat(name){
     let updatedCats = [];
     return updatedCats = [name, ...cats];
 }
+
+function removeLastCat(){
+    const updatedCats = [...cats.slice(0, cats.length - 1)];
+    return updatedCats;
+}
