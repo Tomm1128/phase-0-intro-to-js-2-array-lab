@@ -26,3 +26,8 @@ function appendCat(name){
     let updatedCats = [];
     return updatedCats = [...cats, name];
 }
+
+function prependCat(name){
+    let updatedCats = [];
+    return updatedCats = [name, ...cats];
+}
