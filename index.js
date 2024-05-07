@@ -21,3 +21,8 @@ function destructivelyRemoveFirstCat(){
 
     return cats.shift();
 }
+
+function appendCat(name){
+    let updatedCats = [];
+    return updatedCats = [...cats, name];
+}
